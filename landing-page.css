@@ -1,13 +1,17 @@
 .ct-sectionHeader--type2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 38px;
-    color:black;
+    color:white;
     font-weight: 400;
     padding-bottom: 30px;
     margin-bottom: 30px;
     margin-top: 25px;
     position: relative;
 
+}
+.icon_buttons{
+    margin: 25px;
+    opacity: 0.9;
 }
 .logo-image{
     width:12%;
@@ -16,16 +20,20 @@
 .container-fluid{
     margin-top: 0%;
     padding-top: 0%;
-    background-color:rgba(47, 127, 158, 0.438);
+    background-color:grey;
     height:15%;
 }
 .ct-sectionHeader--type2 small {
     font-family: 'Open Sans', sans-serif;
     font-size: 21.17px;
     padding-top: 10px;
-    color: #231f20;
+    color: greenyellow;
     display: block;
 }
+.ct-u-paddingBottom20{
+    color: greenyellow;
+}
+
 .terms-wrapper {
   margin-top: 20px;
 }
@@ -38,6 +46,9 @@
     position: absolute;
     bottom: 0;
     left: 0;
+}
+.btn-outline-primary{
+color: black;
 }
 .ct-feature_list-header {
     font-size: 20px;
@@ -85,26 +96,6 @@ ul {
     padding-left: 30px;
     font-weight: 700;
 }
-.mobile-app-column {
-    background-color: #F2F5F8;
-}
-div.mobile-app {
-    border-top: 8px solid #b0d44b;
-    padding: 45px 0px;
-}
-div.mobile-app {
-    display: block;
-    width: 100%;
-    border-radius: 0;
-    padding: 0 0 0 10px;
-    background-color: #F2F5F8;
-}
-div.mobile-app .form-group label, div.form-request .form-group label {
-    font-size: 15.58px;
-    font-weight: 400;
-    line-height: 0.9;
-    font-family: 'Open Sans', sans-serif;
-}
 .btn.btn-motive {
     cursor: pointer;
 }
@@ -120,6 +111,7 @@ div.mobile-app .form-group label, div.form-request .form-group label {
     padding: 16px 50px;
     margin-bottom: 30px;
 }
+
 .btn {
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
@@ -144,7 +136,7 @@ div.mobile-app .checkbox label .checkbox-box {
     width: 20px;
 }
 div.mobile-app .checkbox label span {
-    color: #5c5d5f;
+    color: white;
     font-size: 17px;
     padding-left: 10px;
     position: relative;
